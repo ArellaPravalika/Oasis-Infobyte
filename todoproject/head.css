@@ -1,0 +1,102 @@
+
+.App {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 12px;
+  font-size: 18px;
+  width: 300px;
+  border: 2px solid #dcdde1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+button {
+  padding: 12px 18px;
+  font-size: 18px;
+  margin-left: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+button:active {
+  background-color: #1c6ea4;
+}
+
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.task-item:hover {
+  transform: translateY(-5px);
+}
+
+.actions button {
+  margin-left: 10px;
+  background-color: #2ecc71;  
+  color: white;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.actions button:nth-child(2) {
+  background-color: #f39c12;  
+}
+
+.actions button:nth-child(3) {
+  background-color: #e74c3c; 
+}
+
+
+.actions button:hover {
+  opacity: 0.9;
+}
+
+.actions button:active {
+  transform: scale(0.98);
+}
+
+
+h2 {
+  margin-top: 30px;
+  color: #2c3e50;
+  font-size: 24px;
+}
+
+
+.timestamp {
+  font-size: 12px;
+  color: #7f8c8d;
+  margin-top: 5px;
+}
+
